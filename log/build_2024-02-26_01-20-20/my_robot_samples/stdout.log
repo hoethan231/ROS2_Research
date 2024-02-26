@@ -1,0 +1,30 @@
+running develop
+Removing /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my-robot-samples.egg-link (link to .)
+running egg_info
+writing ../../build/my_robot_samples/my_robot_samples.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot_samples/my_robot_samples.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot_samples/my_robot_samples.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot_samples/my_robot_samples.egg-info/requires.txt
+writing top-level names to ../../build/my_robot_samples/my_robot_samples.egg-info/top_level.txt
+reading manifest file '../../build/my_robot_samples/my_robot_samples.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot_samples/my_robot_samples.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_robot_samples/talker_node.py -> /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples
+copying my_robot_samples/listener_node.py -> /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples
+running install
+running install_lib
+creating /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/talker_node.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/__init__.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/listener_node.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/talker_node.py to talker_node.cpython-310.pyc
+byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/listener_node.py to listener_node.cpython-310.pyc
+running install_data
+copying package.xml -> /home/ethanho231/ros2_ws/install/my_robot_samples/share/my_robot_samples
+running install_egg_info
+Copying ../../build/my_robot_samples/my_robot_samples.egg-info to /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker_node script to /home/ethanho231/ros2_ws/install/my_robot_samples/lib/my_robot_samples
+writing list of installed files to '/home/ethanho231/ros2_ws/build/my_robot_samples/install.log'

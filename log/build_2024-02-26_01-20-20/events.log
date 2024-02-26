@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.004481] (my_robot_samples) JobQueued: {'identifier': 'my_robot_samples', 'dependencies': OrderedDict()}
+[0.004769] (my_robot_samples) JobStarted: {'identifier': 'my_robot_samples'}
+[0.099119] (-) TimerEvent: {}
+[0.200134] (-) TimerEvent: {}
+[0.301119] (-) TimerEvent: {}
+[0.401878] (-) TimerEvent: {}
+[0.502719] (-) TimerEvent: {}
+[0.603605] (-) TimerEvent: {}
+[0.704387] (-) TimerEvent: {}
+[0.805181] (-) TimerEvent: {}
+[0.905924] (-) TimerEvent: {}
+[1.006725] (-) TimerEvent: {}
+[1.107498] (-) TimerEvent: {}
+[1.208426] (-) TimerEvent: {}
+[1.309335] (-) TimerEvent: {}
+[1.410046] (-) TimerEvent: {}
+[1.510831] (-) TimerEvent: {}
+[1.611585] (-) TimerEvent: {}
+[1.712503] (-) TimerEvent: {}
+[1.814002] (-) TimerEvent: {}
+[1.915051] (-) TimerEvent: {}
+[2.016271] (-) TimerEvent: {}
+[2.117078] (-) TimerEvent: {}
+[2.217890] (-) TimerEvent: {}
+[2.318666] (-) TimerEvent: {}
+[2.419377] (-) TimerEvent: {}
+[2.520258] (-) TimerEvent: {}
+[2.620966] (-) TimerEvent: {}
+[2.721742] (-) TimerEvent: {}
+[2.822507] (-) TimerEvent: {}
+[2.923263] (-) TimerEvent: {}
+[3.024079] (-) TimerEvent: {}
+[3.124793] (-) TimerEvent: {}
+[3.225782] (-) TimerEvent: {}
+[3.327202] (-) TimerEvent: {}
+[3.338116] (my_robot_samples) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ethanho231/ros2_ws/build/my_robot_samples/build'], 'cwd': '/home/ethanho231/ros2_ws/build/my_robot_samples', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ethanho231', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ethanho231', 'OLDPWD': '/home/ethanho231/ros2_ws/src/my_robot_samples/my_robot_samples', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '995', 'SYSTEMD_EXEC_PID': '1242', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2134', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ethanho231/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ethanho231', 'JOURNAL_STREAM': '8:23134', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ethanho231', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ethanho231-desktop:@/tmp/.ICE-unix/1221,unix/ethanho231-desktop:/tmp/.ICE-unix/1221', 'INVOCATION_ID': '66bcfaa0619244609a303b304c45204c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VXCHJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ethanho231/ros2_ws/install/my_robot_samples:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f1027452-e781-40cb-829e-d458edaec677', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ethanho231/ros2_ws/build/my_robot_samples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:/home/ethanho231/ros2_ws/build/my_robot_samples:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.427359] (-) TimerEvent: {}
+[3.528103] (-) TimerEvent: {}
+[3.628829] (-) TimerEvent: {}
+[3.729568] (-) TimerEvent: {}
+[3.830355] (-) TimerEvent: {}
+[3.931072] (-) TimerEvent: {}
+[4.031852] (-) TimerEvent: {}
+[4.132592] (-) TimerEvent: {}
+[4.233296] (-) TimerEvent: {}
+[4.334041] (-) TimerEvent: {}
+[4.435067] (-) TimerEvent: {}
+[4.535981] (-) TimerEvent: {}
+[4.617391] (my_robot_samples) StdoutLine: {'line': b'running develop\n'}
+[4.636127] (-) TimerEvent: {}
+[4.736817] (-) TimerEvent: {}
+[4.837782] (-) TimerEvent: {}
+[4.938588] (-) TimerEvent: {}
+[5.039457] (-) TimerEvent: {}
+[5.140299] (-) TimerEvent: {}
+[5.241253] (-) TimerEvent: {}
+[5.341994] (-) TimerEvent: {}
+[5.442782] (-) TimerEvent: {}
+[5.446360] (my_robot_samples) StdoutLine: {'line': b'Removing /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my-robot-samples.egg-link (link to .)\n'}
+[5.543079] (-) TimerEvent: {}
+[5.613253] (my_robot_samples) CommandEnded: {'returncode': 0}
+[5.617406] (my_robot_samples) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_samples', 'build', '--build-base', '/home/ethanho231/ros2_ws/build/my_robot_samples/build', 'install', '--record', '/home/ethanho231/ros2_ws/build/my_robot_samples/install.log', '--single-version-externally-managed'], 'cwd': '/home/ethanho231/ros2_ws/src/my_robot_samples', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ethanho231', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ethanho231', 'OLDPWD': '/home/ethanho231/ros2_ws/src/my_robot_samples/my_robot_samples', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '995', 'SYSTEMD_EXEC_PID': '1242', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2134', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ethanho231/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ethanho231', 'JOURNAL_STREAM': '8:23134', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ethanho231', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ethanho231-desktop:@/tmp/.ICE-unix/1221,unix/ethanho231-desktop:/tmp/.ICE-unix/1221', 'INVOCATION_ID': '66bcfaa0619244609a303b304c45204c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VXCHJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ethanho231/ros2_ws/install/my_robot_samples:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f1027452-e781-40cb-829e-d458edaec677', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ethanho231/ros2_ws/build/my_robot_samples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:/home/ethanho231/ros2_ws/build/my_robot_samples:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.643241] (-) TimerEvent: {}
+[5.744209] (-) TimerEvent: {}
+[5.845047] (-) TimerEvent: {}
+[5.945911] (-) TimerEvent: {}
+[6.046754] (-) TimerEvent: {}
+[6.147464] (-) TimerEvent: {}
+[6.248258] (-) TimerEvent: {}
+[6.349000] (-) TimerEvent: {}
+[6.449779] (-) TimerEvent: {}
+[6.550576] (-) TimerEvent: {}
+[6.651264] (-) TimerEvent: {}
+[6.752003] (-) TimerEvent: {}
+[6.819317] (my_robot_samples) StdoutLine: {'line': b'running egg_info\n'}
+[6.821898] (my_robot_samples) StdoutLine: {'line': b'writing ../../build/my_robot_samples/my_robot_samples.egg-info/PKG-INFO\n'}
+[6.823069] (my_robot_samples) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_samples/my_robot_samples.egg-info/dependency_links.txt\n'}
+[6.823916] (my_robot_samples) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_samples/my_robot_samples.egg-info/entry_points.txt\n'}
+[6.824793] (my_robot_samples) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_samples/my_robot_samples.egg-info/requires.txt\n'}
+[6.825426] (my_robot_samples) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_samples/my_robot_samples.egg-info/top_level.txt\n'}
+[6.834155] (my_robot_samples) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_samples/my_robot_samples.egg-info/SOURCES.txt'\n"}
+[6.838172] (my_robot_samples) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_samples/my_robot_samples.egg-info/SOURCES.txt'\n"}
+[6.839030] (my_robot_samples) StdoutLine: {'line': b'running build\n'}
+[6.839489] (my_robot_samples) StdoutLine: {'line': b'running build_py\n'}
+[6.839990] (my_robot_samples) StdoutLine: {'line': b'copying my_robot_samples/talker_node.py -> /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples\n'}
+[6.840943] (my_robot_samples) StdoutLine: {'line': b'copying my_robot_samples/listener_node.py -> /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples\n'}
+[6.841923] (my_robot_samples) StdoutLine: {'line': b'running install\n'}
+[6.843264] (my_robot_samples) StdoutLine: {'line': b'running install_lib\n'}
+[6.846207] (my_robot_samples) StdoutLine: {'line': b'creating /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples\n'}
+[6.846904] (my_robot_samples) StdoutLine: {'line': b'copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/talker_node.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples\n'}
+[6.847659] (my_robot_samples) StdoutLine: {'line': b'copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/__init__.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples\n'}
+[6.848392] (my_robot_samples) StdoutLine: {'line': b'copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/listener_node.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples\n'}
+[6.850869] (my_robot_samples) StdoutLine: {'line': b'byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/talker_node.py to talker_node.cpython-310.pyc\n'}
+[6.852145] (-) TimerEvent: {}
+[6.852706] (my_robot_samples) StdoutLine: {'line': b'byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/__init__.py to __init__.cpython-310.pyc\n'}
+[6.854006] (my_robot_samples) StdoutLine: {'line': b'byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/listener_node.py to listener_node.cpython-310.pyc\n'}
+[6.855109] (my_robot_samples) StdoutLine: {'line': b'running install_data\n'}
+[6.857623] (my_robot_samples) StdoutLine: {'line': b'copying package.xml -> /home/ethanho231/ros2_ws/install/my_robot_samples/share/my_robot_samples\n'}
+[6.858373] (my_robot_samples) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.865245] (my_robot_samples) StdoutLine: {'line': b'Copying ../../build/my_robot_samples/my_robot_samples.egg-info to /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples-0.0.0-py3.10.egg-info\n'}
+[6.871862] (my_robot_samples) StdoutLine: {'line': b'running install_scripts\n'}
+[6.952341] (-) TimerEvent: {}
+[6.952961] (my_robot_samples) StdoutLine: {'line': b'Installing talker_node script to /home/ethanho231/ros2_ws/install/my_robot_samples/lib/my_robot_samples\n'}
+[6.954286] (my_robot_samples) StdoutLine: {'line': b"writing list of installed files to '/home/ethanho231/ros2_ws/build/my_robot_samples/install.log'\n"}
+[7.052761] (-) TimerEvent: {}
+[7.123631] (my_robot_samples) CommandEnded: {'returncode': 0}
+[7.152929] (-) TimerEvent: {}
+[7.254234] (-) TimerEvent: {}
+[7.355429] (-) TimerEvent: {}
+[7.387200] (my_robot_samples) JobEnded: {'identifier': 'my_robot_samples', 'rc': 0}
+[7.393027] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+[3.692s] Invoking command in '/home/ethanho231/ros2_ws/build/my_robot_samples': PYTHONPATH=/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ethanho231/ros2_ws/build/my_robot_samples/build --no-deps install_data
+[4.963s] running develop
+[5.771s] running egg_info
+[5.772s] writing my_robot_samples.egg-info/PKG-INFO
+[5.773s] writing dependency_links to my_robot_samples.egg-info/dependency_links.txt
+[5.774s] writing entry points to my_robot_samples.egg-info/entry_points.txt
+[5.775s] writing requirements to my_robot_samples.egg-info/requires.txt
+[5.776s] writing top-level names to my_robot_samples.egg-info/top_level.txt
+[5.789s] reading manifest file 'my_robot_samples.egg-info/SOURCES.txt'
+[5.793s] writing manifest file 'my_robot_samples.egg-info/SOURCES.txt'
+[5.799s] running build_ext
+[5.800s] Creating /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my-robot-samples.egg-link (link to .)
+[5.803s] 
+[5.804s] Installed /home/ethanho231/ros2_ws/build/my_robot_samples
+[5.810s] running install_data
+[5.962s] Invoked command in '/home/ethanho231/ros2_ws/build/my_robot_samples' returned '0': PYTHONPATH=/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ethanho231/ros2_ws/build/my_robot_samples/build --no-deps install_data

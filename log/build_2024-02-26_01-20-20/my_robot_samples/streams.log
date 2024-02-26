@@ -1,0 +1,34 @@
+[3.337s] Invoking command in '/home/ethanho231/ros2_ws/build/my_robot_samples': PYTHONPATH=/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ethanho231/ros2_ws/build/my_robot_samples/build
+[4.613s] running develop
+[5.442s] Removing /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my-robot-samples.egg-link (link to .)
+[5.609s] Invoked command in '/home/ethanho231/ros2_ws/build/my_robot_samples' returned '0': PYTHONPATH=/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ethanho231/ros2_ws/build/my_robot_samples/build
+[5.619s] Invoking command in '/home/ethanho231/ros2_ws/src/my_robot_samples': PYTHONPATH=/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_samples build --build-base /home/ethanho231/ros2_ws/build/my_robot_samples/build install --record /home/ethanho231/ros2_ws/build/my_robot_samples/install.log --single-version-externally-managed
+[6.815s] running egg_info
+[6.817s] writing ../../build/my_robot_samples/my_robot_samples.egg-info/PKG-INFO
+[6.819s] writing dependency_links to ../../build/my_robot_samples/my_robot_samples.egg-info/dependency_links.txt
+[6.819s] writing entry points to ../../build/my_robot_samples/my_robot_samples.egg-info/entry_points.txt
+[6.820s] writing requirements to ../../build/my_robot_samples/my_robot_samples.egg-info/requires.txt
+[6.821s] writing top-level names to ../../build/my_robot_samples/my_robot_samples.egg-info/top_level.txt
+[6.830s] reading manifest file '../../build/my_robot_samples/my_robot_samples.egg-info/SOURCES.txt'
+[6.834s] writing manifest file '../../build/my_robot_samples/my_robot_samples.egg-info/SOURCES.txt'
+[6.834s] running build
+[6.835s] running build_py
+[6.835s] copying my_robot_samples/talker_node.py -> /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples
+[6.836s] copying my_robot_samples/listener_node.py -> /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples
+[6.837s] running install
+[6.839s] running install_lib
+[6.842s] creating /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+[6.842s] copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/talker_node.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+[6.843s] copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/__init__.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+[6.844s] copying /home/ethanho231/ros2_ws/build/my_robot_samples/build/lib/my_robot_samples/listener_node.py -> /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples
+[6.846s] byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/talker_node.py to talker_node.cpython-310.pyc
+[6.848s] byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/__init__.py to __init__.cpython-310.pyc
+[6.850s] byte-compiling /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples/listener_node.py to listener_node.cpython-310.pyc
+[6.851s] running install_data
+[6.853s] copying package.xml -> /home/ethanho231/ros2_ws/install/my_robot_samples/share/my_robot_samples
+[6.854s] running install_egg_info
+[6.861s] Copying ../../build/my_robot_samples/my_robot_samples.egg-info to /home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages/my_robot_samples-0.0.0-py3.10.egg-info
+[6.867s] running install_scripts
+[6.948s] Installing talker_node script to /home/ethanho231/ros2_ws/install/my_robot_samples/lib/my_robot_samples
+[6.950s] writing list of installed files to '/home/ethanho231/ros2_ws/build/my_robot_samples/install.log'
+[7.121s] Invoked command in '/home/ethanho231/ros2_ws/src/my_robot_samples' returned '0': PYTHONPATH=/home/ethanho231/ros2_ws/build/my_robot_samples/prefix_override:/home/ethanho231/ros2_ws/install/my_robot_samples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_samples build --build-base /home/ethanho231/ros2_ws/build/my_robot_samples/build install --record /home/ethanho231/ros2_ws/build/my_robot_samples/install.log --single-version-externally-managed
